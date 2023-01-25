@@ -1,0 +1,37 @@
+.home__conatiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .search{
+    &__container {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;      
+      input {
+        padding: 5px 10px;
+        margin-left: 10px;
+      }
+    }
+  }
+  
+  .users{
+    &__container {
+      display: flex;
+      
+      div:not(:first-child){ 
+        margin: 0 10px;
+      }
+    }
+  }
+  .transactions{
+    &__container {
+      display: flex;      
+      div:not(:first-child){ 
+        margin: 10px 100px;
+      }
+    }
+  }
+}
+.button_container{
+  margin: 10px 10px;
+}
